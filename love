@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Test</title>
+</head>
+<body>
+    <script>
+        // Paste your JavaScript code here
+
+        // Prompt the user with the question "Do you love me?"
+        var userAnswer = prompt("Do you love me? (Please answer 'yes' or 'no')");
+
+        // Check the user's answer and provide a romantic response
+        if (userAnswer === 'yes') {
+            alert("I love you more than words can express. You are my everything.");
+        } else if (userAnswer === 'no') {
+            alert("Even if you don't love me now, my love for you will never fade.");
+        } else {
+            alert("Please answer with 'yes' or 'no' to reveal my feelings.");
+        }
+    </script>
+</body>
+</html>
